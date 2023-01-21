@@ -1,6 +1,6 @@
 # sphinx-docs
 
-An example of how to use Sphinx to create an awesome documentation site.
+An example of how to use Sphinx to create a beautiful documentation site.
 
 ## ⭐ Features
 
@@ -33,3 +33,10 @@ An example of how to use Sphinx to create an awesome documentation site.
 - [furo](https://pradyunsg.me/furo/): beautiful theme built by [pradyunsg](https://github.com/pradyunsg/)
 - [sphinx-autobuild](https://github.com/executablebooks/sphinx-autobuild): automatically re-generates documentation when the markdown is updated
 - [poetry](https://python-poetry.org/): sane Python dependency management
+
+## Related projects
+
+- [mkdocs](https://www.mkdocs.org/): fast, simple and downright gorgeous static site generator that's geared towards building project documentation.
+- [mdBook](https://github.com/rust-lang/mdBook): Create book from markdown files. Like Gitbook but implemented in Rust.
+- [Docusaurus](https://docusaurus.io/): Easy to maintain open source documentation websites.
+- [Retype](https://retype.com/): an ✨ ultra-high-performance ✨ generator that builds a website based on simple text files.
