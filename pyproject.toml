@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sphinx-docs"
+version = "0.0.0"
+description = "Example of how to use Sphinx for documentation"
+license = "MIT"
+repository = "https://github.com/adamghill/sphinx-docs/"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+Sphinx = "*"
+linkify-it-py = "*"
+myst-parser = "*"
+furo = "*"
+sphinx-copybutton = "*"
+sphinx-autobuild = "*"
+toml = "*"
+attrs = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
