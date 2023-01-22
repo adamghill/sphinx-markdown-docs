@@ -1,6 +1,6 @@
-# sphinx-docs
+# sphinx-markdown-docs
 
-An example of how to use Sphinx to create a beautiful documentation site.
+An example of how to use Sphinx to create a beautiful documentation site with markdown.
 
 ## ⭐ Features
 
@@ -11,20 +11,20 @@ An example of how to use Sphinx to create a beautiful documentation site.
 - Easy to serve the docs on [ReadTheDocs](https://readthedocs.org)
 
 ## 🔧 How to install
-- Fork https://github.com/adamghill/sphinx-docs
-- `git clone https://github.com/GITHUB_USER/sphinx-docs`
+- Fork https://github.com/adamghill/sphinx-markdown-docs
+- `git clone https://github.com/GITHUB_USER/sphinx-markdown-docs`
 - `curl -sSL https://install.python-poetry.org | python3 -`
 - `poetry install`
 - Update `docs/source/conf.py` for your project
 
 ## 👟 How to use
-- `poetry run sphinx-autobuild -W docs/source docs/build`
+- `poetry run sphinx-autobuild -W -b dirhtml docs/source docs/build`
 - Go to http://localhost:8000
 - Edit/add markdown files in `docs/source/` directory
 - Update the `toctree` in `docs/source/index.md`
 
 ## 🏗️ Build documentation
-- `poetry run sphinx-build -W docs/source docs/build`
+- `poetry run sphinx-build -W -b dirhtml docs/source docs/build`
 
 ## Acknowledgements
 

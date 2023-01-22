@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "sphinx-docs"
+name = "sphinx-markdown-docs"
 version = "0.0.0"
-description = "Example of how to use Sphinx for documentation"
+description = "Example of how to use Sphinx for markdown documentation"
 license = "MIT"
-repository = "https://github.com/adamghill/sphinx-docs/"
+repository = "https://github.com/adamghill/sphinx-markdown-docs/"
 
 [tool.poetry.dependencies]
 python = ">=3.7,<4.0"

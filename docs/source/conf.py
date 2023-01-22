@@ -3,7 +3,7 @@
 
 # -- Project information
 
-project = "sphinx-docs"
+project = "sphinx-markdown-docs"
 copyright = "2023, Author"
 author = "Author"
 
